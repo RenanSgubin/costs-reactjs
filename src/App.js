@@ -17,8 +17,6 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar/>
-
-      <Container>
         <Routes>
           <Route path='/' exact="true" element={<Home/>}></Route>
           <Route path='/company' element={<Company/>}></Route>
@@ -26,9 +24,6 @@ function App() {
           <Route path='/newproject' element={<NewProject/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
         </Routes>
-      </Container>
-
-      <Footer/>
     </BrowserRouter>
   );
 }

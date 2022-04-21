@@ -1,0 +1,91 @@
+
+:root {
+    --fontColor: #eeeeee;
+}
+
+
+.HomeCostsRatingContainer {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeCostsRatingContent {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.HomeCostsRating {
+    width: 25%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #7A43B6;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    color: var(--fontColor);
+}
+
+.HomeCostsRatingTitle:nth-child(1) {
+    color: var(--fontColor);
+} 
+
+.HomeCostsRatingTitle:nth-child(2) {
+    font-size: 2.5rem;
+    color: var(--fontColor);
+} 
+
+.HomeCostsRatingStars {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeCostsRatingStars span {
+    width: 16%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(234, 180, 65);
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.HomeCostsRatingStars span:nth-child(5) {
+    background-color: rgb(182, 182, 182);
+}
+ 
+.HomeCostsRatingTextsContainer {
+    width: 80%;
+    height: 85vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.HomeCostsRatingTexts {
+    width: 60vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 4px 4px 15px -3px #000000; 
+    box-shadow: 4px 4px 15px -3px #000000;
+    border-radius: 3px;
+    margin-top: 40px;
+}
