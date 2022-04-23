@@ -1,21 +1,20 @@
 
 
 import React from "react"
-import styles from './css/HomeCostsInfos.module.css'
+import styles from './HomeCostsInfos.module.css'
 
 import { FaGrav, FaNapster, FaUikit, FaTripadvisor } from "react-icons/fa";
 
 
 function HomeCostsInfos() {
 
-    const iconsStyle = { color: "red", fontSize: "1.5em" }
 
     return(
         <section className={styles.HomeCostsInfosContainer}>
             <h1>Why Costs?</h1>
             <div className={styles.HomeCostsInfosContent}>
                 <div className={styles.CostsInfosAlign}>
-                    <div className={styles.CostsInfos}><FaGrav style={iconsStyle}/></div>
+                    <div className={styles.CostsInfos}><FaGrav/></div>
                     <span className={styles.CostsInfosText}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nam laoreet mauris lectus, sit amet bibendum nulla feugiat eget. 

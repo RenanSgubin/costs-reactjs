@@ -14,6 +14,7 @@
 }
 
 .ulHeader {
+    position: relative;
     width: 80%;
     display: flex;
     align-items: center;
@@ -22,8 +23,28 @@
 }
 
 .headerLinks {
+    position: relative;
     margin-left: 50px;
     color: rgb(51, 51, 51);
+}
+
+.headerLinks::before {
+    content: '';
+    background: #7A43B6;
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    width: 0;
+    height: 3px;
+    transition: all 0.1s ease-in-out;
+}
+
+.headerLinks:hover {
+    background-position: 0;
+}
+
+.headerLinks:hover::before {
+    width: 70%;
 }
 
 .costsLogo {

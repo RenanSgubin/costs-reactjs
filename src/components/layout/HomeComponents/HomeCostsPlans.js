@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import styles from './css/HomeCostsPlans.module.css'
+import styles from './HomeCostsPlans.module.css'
 
 import { VscCheck } from "react-icons/vsc";
 import { FaWindows, FaApple, FaAndroid, FaChrome } from "react-icons/fa";

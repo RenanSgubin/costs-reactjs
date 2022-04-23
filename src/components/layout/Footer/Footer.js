@@ -4,8 +4,8 @@
 
 import React from "react";
 import { Link } from 'react-router-dom'
-import styles from './css/Footer.module.css'
-import logo from '../../img/costs_logo.png'
+import styles from './Footer.module.css'
+import logo from '../../../img/costs_logo.png'
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 

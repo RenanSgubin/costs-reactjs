@@ -1,14 +1,14 @@
 
 
 import React from "react"
-import styles from '../layout/css/Home.module.css'
+import styles from '../layout/HomeComponents/Home.module.css'
 import Spline from '@splinetool/react-spline';
 
-import HomeCostsInfos from "../layout/HomeCostsInfos";
-import HomeCostsPlans from "../layout/HomeCostsPlans";
-import HomeCostsRating from "../layout/HomeCostsRating";
+import HomeCostsInfos from "../layout/HomeComponents/HomeCostsInfos";
+import HomeCostsPlans from "../layout/HomeComponents/HomeCostsPlans";
+import HomeCostsRating from "../layout/HomeComponents/HomeCostsRating";
 
-import Footer from "../layout/Footer";
+import Footer from "../layout/Footer/Footer";
 
 function Home(){
     return(

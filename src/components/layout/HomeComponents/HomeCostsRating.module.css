@@ -44,14 +44,14 @@
 } 
 
 .HomeCostsRatingStars {
-    width: 100%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .HomeCostsRatingStars span {
-    width: 16%;
+    width: 65px;
     height: 55px;
     display: flex;
     align-items: center;
@@ -77,15 +77,41 @@
 }
 
 .HomeCostsRatingTexts {
+    position: relative;
     width: 60vw;
-    height: 300px;
+    height: 30vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    -webkit-box-shadow: 4px 4px 15px -3px #000000; 
-    box-shadow: 4px 4px 15px -3px #000000;
+    justify-content: start;
+    background-color: rgb(239, 239, 239);
+    -webkit-box-shadow: 4px 4px 5px -3px #e7e7e7; 
+    box-shadow: 4px 4px 5px -3px #e7e7e7;
     border-radius: 3px;
     margin-top: 40px;
 }
+
+.HomeCostsRatingUserDetails {
+    width: 25%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.HomeCostsRatingUserPhoto {
+    width: 90px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.HomeCostsRatingUserAval {
+    width: 75%;
+    height: 25vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/*563492ad6f9170000100000128624a1d934740d18f3e81b5c8061adf*/
