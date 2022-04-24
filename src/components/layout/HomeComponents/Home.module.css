@@ -1,12 +1,22 @@
 
 
 .homeColumn {
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    color: #f3f3f3;
+}
+
+.homeWallpaper {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: auto;
+    filter: brightness(30%);
 }
 
 .homeFlex {
@@ -16,6 +26,7 @@
     align-items: center;
     justify-content: space-around;
     font-size: 1.1rem;
+    z-index: 9999;
 }
 
 .homeTextsContent {
@@ -24,6 +35,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.homeTextsContent h1 {
+    font-size: 2.7rem;
 }
 
 .homeStartLink {

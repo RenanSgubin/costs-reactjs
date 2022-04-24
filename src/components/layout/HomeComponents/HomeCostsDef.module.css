@@ -1,0 +1,50 @@
+
+
+.HomeCostsDefContainer {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    z-index: 9999;
+    color: rgb(51, 51, 51);
+    background-color: #f3f3f3;
+}
+
+.HomeCostsDefImgContent {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeCostsDefTextsContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HomeCostsDefTitleHrContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HomeCostsDefContainer img{
+    width: 90%;
+}
+
+.HomeCostsDefContainer hr {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.HomeCostsDefContainer h2 {
+    width: 75%;
+    font-size: 1rem;
+}

@@ -12,7 +12,11 @@ function NavBar() {
        
         <nav className={styles.navHeader}>
             <Link to="/">
-                <img src={logo} alt="Costs" className={styles.costsLogo}/>
+                <div className={styles.navHeaderLogoContent}>
+                    <img src={logo} alt="Costs" className={styles.costsLogo}/>
+                    <h4>|</h4>
+                    <h4>Costs</h4>
+                </div>
             </Link>
             <ul className={styles.ulHeader}>
                 <Link to="/" className={styles.headerLinks}>Home</Link>
@@ -20,6 +24,10 @@ function NavBar() {
                 <Link to="/company" className={styles.headerLinks}>Company</Link>
                 <Link to="/newproject" className={styles.headerLinks}>New Project</Link>
                 <Link to="/projects" className={styles.headerLinks}>Projects</Link>
+                <div className={styles.headerLinksLoginRegisterContent}>
+                    <Link to="/" className={styles.headerLinksLogin}>Login</Link>
+                    <Link to="/" className={styles.headerLinksRegister}>Register</Link>
+                </div>
             </ul>
         </nav>
     )
