@@ -38,7 +38,7 @@ function HomeCostsRating() {
                             <h4>Connor McGregor</h4>
                         </span>
                         <span className={styles.HomeCostsRatingUserAval}>
-                            <div className={styles.HomeCostsRatingStars}>
+                            <div className={styles.HomeCostsRatingStarsTwo}>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
@@ -46,7 +46,7 @@ function HomeCostsRating() {
                                 <span><FaStar style={{ fill: '#ffffff' }}/></span>
                             </div>
                             <h3>Its a Good Project Management</h3>
-                            <span>
+                            <span className={styles.HomeCostsRatingTextAuto}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                 Curabitur porttitor arcu id fringilla egestas. Duis maximus 
                                 feugiat ultrices. Proin malesuada felis quis mauris sagittis porta. 
@@ -64,7 +64,7 @@ function HomeCostsRating() {
                             <h4>David Motta</h4>
                         </span>
                         <span className={styles.HomeCostsRatingUserAval}>
-                            <div className={styles.HomeCostsRatingStars}>
+                            <div className={styles.HomeCostsRatingStarsTwo}>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
@@ -90,7 +90,7 @@ function HomeCostsRating() {
                             <h4>Sabrina Mountain</h4>
                         </span>
                         <span className={styles.HomeCostsRatingUserAval}>
-                            <div className={styles.HomeCostsRatingStars}>
+                            <div className={styles.HomeCostsRatingStarsTwo}>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
@@ -116,7 +116,7 @@ function HomeCostsRating() {
                             <h4>McLovin</h4>
                         </span>
                         <span className={styles.HomeCostsRatingUserAval}>
-                            <div className={styles.HomeCostsRatingStars}>
+                            <div className={styles.HomeCostsRatingStarsTwo}>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
@@ -142,7 +142,7 @@ function HomeCostsRating() {
                             <h4>Michelangelo Simoni</h4>
                         </span>
                         <span className={styles.HomeCostsRatingUserAval}>
-                            <div className={styles.HomeCostsRatingStars}>
+                            <div className={styles.HomeCostsRatingStarsTwo}>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>
                                 <span><FaStar style={{ fill: '#ffffff'}}/></span>

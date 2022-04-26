@@ -6,12 +6,17 @@ import styles from './HomeCostsDef.module.css'
 
 import homeDefImg from '../../../img/homeDefImg.png'
 
+import aos from "aos";
+import AOS from 'aos/dist/aos.css'
+
 function HomeCostsDef() {
 
     return (
         <section className={styles.HomeCostsDefContainer}>
-             <div className={styles.HomeCostsDefImgContent}><img src={homeDefImg} alt="ProjectImage"/></div>
-             <div className={styles.HomeCostsDefTextsContent}>
+             <div className={styles.HomeCostsDefImgContent} data-aos="fade-up">
+                 <img src={homeDefImg} alt="ProjectImage"/>
+             </div>
+             <div className={styles.HomeCostsDefTextsContent} data-aos="fade-up">
                  <div className={styles.HomeCostsDefTitleHrContent}>
                     <h5>What is Costs?</h5><hr></hr>
                  </div>
@@ -40,6 +45,7 @@ function HomeCostsDef() {
                  </h2>
              </div>
         </section>
+
     )
 
 }

@@ -14,7 +14,7 @@ function HomeCostsPlans() {
 
             <div className={styles.HomeCostsPlansContent}>
 
-                  <div className={styles.HomeCostsPlans}>
+                  <div className={styles.HomeCostsPlans} data-aos="fade-right">
                     <div className={styles.HomeCostsPlansColumns}>
                         <span className={styles.HomeCostsPlansTitles}>
                             <h3>Free</h3>
@@ -43,7 +43,7 @@ function HomeCostsPlans() {
                     </div>
                 </div>
 
-                <div className={styles.HomeCostsPlans}>
+                <div className={styles.HomeCostsPlans} data-aos="fade-up">
                     <div className={styles.HomeCostsPlansColumns}>
                         <span className={styles.HomeCostsPlansTitles}>
                             <h3>Premium</h3>
@@ -72,7 +72,7 @@ function HomeCostsPlans() {
                     </div>
                 </div>
 
-                <div className={styles.HomeCostsPlans}>
+                <div className={styles.HomeCostsPlans} data-aos="fade-left">
                     <div className={styles.HomeCostsPlansColumns}>
                         <span className={styles.HomeCostsPlansTitles}>
                             <h3>Premium</h3>

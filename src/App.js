@@ -1,6 +1,6 @@
 
 
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 import Home from "./components/pages/Home";
@@ -12,8 +12,17 @@ import Projects from './components/pages/Projects'
 import NavBar from "./components/layout/Header/NavBar";
 import Footer from "./components/layout/Footer/Footer";
 
+import "aos/dist/aos.css";
+import AOS from "aos";
 
-function App() {
+
+
+  function App() {
+    useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
+
   return (
     <BrowserRouter>
       <NavBar/>
@@ -25,7 +34,10 @@ function App() {
           <Route path='/projects' element={<Projects/>}></Route>
         </Routes>
     </BrowserRouter>
+
+    
   );
+  
 }
 
 export default App;

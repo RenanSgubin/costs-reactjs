@@ -12,9 +12,11 @@ function HomeCostsInfos() {
     return(
         <section className={styles.HomeCostsInfosContainer}>
             <h1>Why Costs?</h1>
+            <div className={styles.HomeCostsInfosBlueBg}></div>
             <div className={styles.HomeCostsInfosContent}>
-                <div className={styles.CostsInfosAlign}>
+                <div className={styles.CostsInfosAlign} data-aos="fade-up">
                     <div className={styles.CostsInfos}><FaGrav/></div>
+                    <h3>Lorem Ipsum</h3>
                     <span className={styles.CostsInfosText}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nam laoreet mauris lectus, sit amet bibendum nulla feugiat eget. 
@@ -23,8 +25,9 @@ function HomeCostsInfos() {
                     </span>
                 </div>
 
-                <div className={styles.CostsInfosAlign}>
+                <div className={styles.CostsInfosAlign} data-aos="fade-up">
                     <div className={styles.CostsInfos}><FaNapster/></div>
+                    <h3>Lorem Ipsum</h3>
                     <span className={styles.CostsInfosText}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nam laoreet mauris lectus, sit amet bibendum nulla feugiat eget. 
@@ -33,8 +36,9 @@ function HomeCostsInfos() {
                     </span>
                 </div>
 
-                <div className={styles.CostsInfosAlign}>
+                <div className={styles.CostsInfosAlign} data-aos="fade-up">
                     <div className={styles.CostsInfos}><FaUikit/></div>
+                    <h3>Lorem Ipsum</h3>
                     <span className={styles.CostsInfosText}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nam laoreet mauris lectus, sit amet bibendum nulla feugiat eget. 
@@ -43,8 +47,9 @@ function HomeCostsInfos() {
                     </span>
                 </div>
 
-                <div className={styles.CostsInfosAlign}>
+                <div className={styles.CostsInfosAlign} data-aos="fade-up">
                     <div className={styles.CostsInfos}><FaTripadvisor/></div>
+                    <h3>Lorem Ipsum</h3>
                     <span className={styles.CostsInfosText}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nam laoreet mauris lectus, sit amet bibendum nulla feugiat eget. 

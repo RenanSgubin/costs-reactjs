@@ -45,15 +45,22 @@
 } 
 
 .HomeCostsRatingStars {
-    width: auto;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.HomeCostsRatingStars span {
-    width: 65px;
-    height: 55px;
+.HomeCostsRatingStarsTwo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.HomeCostsRatingStars span, .HomeCostsRatingStarsTwo span {
+    width: 17%;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,4 +122,101 @@
     flex-direction: column;
 }
 
-/*563492ad6f9170000100000128624a1d934740d18f3e81b5c8061adf*/
+
+@media screen and (max-width: 1300px){
+    
+    .HomeCostsRatingContent {
+        flex-direction: column;
+    }
+
+    .HomeCostsRating {
+        width: 100%;
+        height: 25vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #7A43B6;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+        color: var(--fontColor);
+        margin-top: 30px;
+    }
+
+    .HomeCostsRatingStars span {
+        width: 80px;
+    }
+
+    .HomeCostsRatingTextsContainer {
+        display: grid;
+        width: 100%;
+    }
+
+    .HomeCostsRatingStarsTwo span {
+        width: 55px;
+    }
+
+    .HomeCostsRatingTexts {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .HomeCostsRatingTexts {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 95%;
+        height: 700px;
+        justify-content: center;
+        flex-direction: column;
+    }  
+
+    .HomeCostsRatingUserDetails {
+        width: 95%;
+    }
+
+    .HomeCostsRatingUserAval {
+        justify-content: space-around;
+        align-items: center;
+        height: 400px;
+    }
+
+    .HomeCostsRatingStarsTwo  {
+        width: 95%;
+        justify-content: center;
+    }
+
+    .HomeCostsRatingStarsTwo span {
+        width: 50px;
+    }
+
+    .HomeCostsRatingTextAuto {
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 510px){
+    
+    .HomeCostsRatingTexts {
+        height: 800px;
+    }  
+
+    .HomeCostsRatingUserAval {
+        height: 700px;
+        flex-wrap: wrap;
+    }
+
+    .HomeCostsRatingStars span {
+        width: 60px;
+    }
+
+}

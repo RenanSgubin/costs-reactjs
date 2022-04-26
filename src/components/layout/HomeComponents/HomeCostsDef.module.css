@@ -36,7 +36,8 @@
 }
 
 .HomeCostsDefContainer img{
-    width: 90%;
+    width: 80%;
+    animation: float 3s ease-in-out infinite;
 }
 
 .HomeCostsDefContainer hr {
@@ -47,4 +48,55 @@
 .HomeCostsDefContainer h2 {
     width: 75%;
     font-size: 1rem;
+}
+
+
+@keyframes float {
+    
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 1330px){
+    
+    .HomeCostsDefContainer img {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 1070px){
+    
+    .HomeCostsDefContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .HomeCostsDefTextsContent {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .HomeCostsDefContainer img {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    
+    .HomeCostsDefContainer img {
+        width: 350px;
+    }
+
 }
