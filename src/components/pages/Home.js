@@ -12,14 +12,21 @@ import HomeCostsDef from "../layout/HomeComponents/HomeCostsDef";
 import Footer from "../layout/Footer/Footer";
 
 import wallpaper from '../../img/person_working.jpg'
+import wallpaperMobile from '../../img/home-mobile-wallpaper.jpg'
 
 function Home(){
     return(
         <section className={styles.homeColumn}>
             <img src={wallpaper} alt="People working" className={styles.homeWallpaper}/>
+            <img src={wallpaperMobile} alt="People working" className={styles.homeWallpaperMobile}/>
+
             <div className={styles.homeFlex}>
                 <div className={styles.homeTextsContent}>
-                    <h1>Welcome to the Costs</h1>
+                    <div className={styles.homeTextsContentTitle}>
+                        <h1>Welcome</h1>&nbsp;&nbsp;
+                        <h1>to the</h1>&nbsp;&nbsp;
+                        <h1>Costs</h1>
+                    </div>
                     <p>Manage your projects</p>
                     <a href="/" className={styles.homeStartLink}>Start</a>
                 </div>

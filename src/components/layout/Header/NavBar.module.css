@@ -3,7 +3,6 @@
 .navHeader {
     width: 100%;
     height: 9vh;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,5 +79,22 @@
 
 .headerLinks:hover::before {
     width: 70%;
+}
+
+
+@media screen and (max-width: 1250px) {
+
+    .navHeader {
+        justify-content: space-between;
+    }
+
+    .ulHeader {
+        display: none;
+    }
+    
+    .navHeaderLogoContent {
+        margin-left: 50px;
+    }
+
 }
 

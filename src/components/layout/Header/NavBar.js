@@ -1,10 +1,12 @@
 
 
-import React from "react";
+import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 
 import styles from './NavBar.module.css';
 import logo from '../../../img/costs_logo.png';
+
+import HiddenMenu from "../HiddenMenu/HiddenMenu";
 
 
 function NavBar() {
@@ -29,6 +31,9 @@ function NavBar() {
                     <Link to="/" className={styles.headerLinksRegister}>Register</Link>
                 </div>
             </ul>
+
+            <HiddenMenu/>
+
         </nav>
     )
 }

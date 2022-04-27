@@ -1,0 +1,87 @@
+
+
+
+
+.HambMenu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(231, 231, 231);
+    z-index: 9999;
+}
+
+.HambMenu span {
+    width: 32px;
+    height: 3px;
+    background-color: #7A43B6;
+    margin-top: 4px;
+    z-index: 9999;
+}
+
+.HambMenu span:nth-child(2) {
+    width: 26px;
+}
+
+.HiddenMenu {
+    position: fixed;
+    top: 0%;
+    right: -100%;
+    width: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(50, 50, 50);
+    color: rgb(231, 231, 231);
+    transition: 0.3s all;
+    z-index: 10;
+}
+
+.HiddenMenu a {
+    color: rgb(231, 231, 231);
+}
+
+.headerLinksLoginRegisterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.headerLinks, .headerLinksRegister, .headerLinksLogin {
+    margin-top: 20px;
+}
+
+.HambMenu:target + .HiddenMenu{
+    display: flex;
+}
+
+
+@media screen and (max-width: 1250px){
+    
+    .HambMenu {
+        display: flex;
+        margin-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    
+    .HiddenMenu {
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    
+    .HiddenMenu {
+        width: 70%;
+    }
+
+}
