@@ -36,7 +36,6 @@ function Home(){
             <HomeCostsInfos/>
             <HomeCostsRating/>
             <HomeCostsPlans/>
-            <Footer/>
         </section>
     )
 }

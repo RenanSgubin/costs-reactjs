@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from "./components/pages/Home";
 import Company from "./components/pages/Company";
 import Contact from "./components/pages/Contact";
+import Login from "./components/pages/Login";
+import Register from "./components/pages/Register";
 import NewProject from "./components/pages/NewProject";
 import Projects from './components/pages/Projects'
 
@@ -33,7 +35,10 @@ import AOS from "aos";
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/newproject' element={<NewProject/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
+          <Route path='/login' element={<Login/>}></Route>
+          <Route path='/register' element={<Register/>}></Route>
         </Routes>
+      <Footer/>
     </BrowserRouter>
 
     
