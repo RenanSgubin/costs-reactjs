@@ -2,9 +2,11 @@
 
 import React from "react"
 
+import ContactLayout from "../layout/Contact/ContactLayout"
+
 function Contact(){
     return(
-        <h1>Contact</h1>
+        <ContactLayout/>
     )
 }
 
