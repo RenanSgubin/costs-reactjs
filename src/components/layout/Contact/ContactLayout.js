@@ -12,7 +12,7 @@ function ContactLayout() {
 
     return(
         <section className={styles.ContactContainer}>  
-            <div className={styles.ContactContent}>
+            <div className={styles.ContactContent} data-aos="fade-up">
 
                 <div className={styles.ContactLeftDiv}>
                     <div className={styles.ContactLeftDivTextsContent}>

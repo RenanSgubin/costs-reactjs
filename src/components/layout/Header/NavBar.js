@@ -23,7 +23,7 @@ function NavBar() {
             <ul className={styles.ulHeader}>
                 <Link to="/" className={styles.headerLinks}>Home</Link>
                 <Link to="/contact" className={styles.headerLinks}>Contact</Link>
-                <Link to="/company" className={styles.headerLinks}>Company</Link>
+                <Link to="/faq" className={styles.headerLinks}>Company</Link>
                 {/*<Link to="/newproject" className={styles.headerLinks}>New Project</Link>
                 <Link to="/projects" className={styles.headerLinks}>Projects</Link>*/}
                 <div className={styles.headerLinksLoginRegisterContent}>

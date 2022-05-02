@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 import Home from "./components/pages/Home";
-import Company from "./components/pages/Company";
+import Faq from "./components/pages/FAQ";
 import Contact from "./components/pages/Contact";
 import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
@@ -31,7 +31,7 @@ import AOS from "aos";
       <NavBar/>
         <Routes>
           <Route path='/' exact="true" element={<Home/>}></Route>
-          <Route path='/company' element={<Company/>}></Route>
+          <Route path='/faq' element={<Faq/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/newproject' element={<NewProject/>}></Route>
           <Route path='/projects' element={<Projects/>}></Route>
