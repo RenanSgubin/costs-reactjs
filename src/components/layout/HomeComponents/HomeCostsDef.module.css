@@ -1,0 +1,103 @@
+
+
+.HomeCostsDefContainer {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    z-index: 8;
+    color: rgb(51, 51, 51);
+    background-color: #f3f3f3;
+}
+
+.HomeCostsDefImgContent {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeCostsDefTextsContent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HomeCostsDefTitleHrContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.HomeCostsDefContainer img{
+    width: 80%;
+    animation: float 3s ease-in-out infinite;
+}
+
+.HomeCostsDefContainer hr {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.HomeCostsDefContainer h2 {
+    width: 75%;
+    font-size: 1rem;
+}
+
+
+@keyframes float {
+    
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-25px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 1330px){
+    
+    .HomeCostsDefContainer img {
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 1070px){
+    
+    .HomeCostsDefContainer {
+        flex-direction: column;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .HomeCostsDefTextsContent {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .HomeCostsDefContainer img {
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    
+    .HomeCostsDefContainer img {
+        width: 350px;
+    }
+
+}

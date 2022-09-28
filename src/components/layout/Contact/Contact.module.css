@@ -1,0 +1,250 @@
+
+:root {
+    --contact--content--width: 1200px;
+    --contact--content--height: 90vh;
+}
+
+.ContactContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactContent {
+    width: var(--contact--content--width);
+    height: var(--contact--content--height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactLeftDiv {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(113, 113, 232);
+    border-radius: 10px;
+}
+
+.ContactLeftDiv h4 {
+    z-index: 10;
+    color: #eeeded;
+}
+
+.ContactLeftDivTextsContent {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.ContactLeftDivTextsContent span {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(206, 206, 206);
+}
+
+.ContactWallpaper {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.ContactRightDiv {
+    position: relative;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 1px 5px 5px -3px #adadad; 
+    box-shadow: 1px 5px 5px -3px #adadad; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/*********************Right Div inputs styles*/
+.RegisterTitle {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    -webkit-box-shadow: 1px 5px 5px -3px #adadad; 
+    box-shadow: 1px 5px 5px -3px #adadad;  
+}
+
+.RegisterTitleContent {
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.RegisterInputsContent {
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.InputsContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.RegisterInputsFlex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+.RegisterInputsFlex textarea {
+    height: 15vh;
+    resize: none;
+}
+
+.RegisterInputsFlexSelect {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.RegisterInputsFlexSelect select {
+    -webkit-appearance: none;
+}
+
+.RegisterInputsFlexSelect::before, .RegisterInputsFlexSelect::after{
+    content: "";
+    position: absolute;
+    top: 65%;
+    border-top: 2px solid rgb(41, 41, 41);
+    width: 10px;
+ }
+ 
+ .RegisterInputsFlexSelect::before{
+    right: 26px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+ }
+
+ .RegisterInputsFlexSelect::after{
+    right: 20px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+ }
+
+.RegisterInputs {
+    width: 100%;
+    height: 5vh;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.RegisterButton {
+    width: 170px;
+    height: 50px;
+    background-color: #667eea;
+    color: #eaeaea;
+    border-radius: 3px;
+    transition: 0.2s all;
+}
+
+.RegisterButton:hover {
+    background-color: #394c9c;
+}
+
+/******************* End Inputs Styles **************/
+
+
+
+@media screen and (max-width: 1250px){
+    :root {
+        --contact--content--width: 1000px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    :root {
+        --contact--content--width: 850px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    :root {
+        --contact--content--width: 95%;
+    }
+
+    .ContactLeftDivTextsContent {
+        height: 50vh;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    :root {
+        --contact--content--height: auto;
+    }
+
+    .ContactContainer {
+        height: auto;
+    }
+
+    .ContactContent {
+        flex-direction: column;
+    }
+
+    .ContactLeftDiv {
+        width: 90%;
+        height: 40vh;
+        margin-top: 10%;
+    }
+
+    .ContactRightDiv {
+        width: 90%;
+        height: 90vh;
+        margin-bottom: 5%;
+    }
+}
